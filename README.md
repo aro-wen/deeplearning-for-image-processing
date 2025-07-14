@@ -102,7 +102,7 @@ pip install -r requirements.txt
 Created as part of a study project in image processing and computer vision using traditional feature detection methods.
 
 Maintained by: Lei Dumindin
-GitHub: [https://github.com/your-username](https://github.com/aro-wen)
+GitHub: [https://github.com/aro-wen](https://github.com/aro-wen)
 
 ---
 
