@@ -59,8 +59,8 @@ This project explores traditional image processing feature detectors such as Haa
 In your terminal:
 
 ```
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone "https://github.com/aro-wen/deeplearning-for-image-processing.git"
+cd deeplearning-for-image-processing
 ```
 
 Replace with your actual repo URL.
