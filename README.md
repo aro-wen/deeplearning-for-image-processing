@@ -95,19 +95,14 @@ With the `venv` activated, run:
 pip install -r requirements.txt
 ```
 
-If you don’t have a `requirements.txt` yet, you can generate it:
-
-```
-pip freeze > requirements.txt
-```
 
 
 ## 🧠 Credits
 
 Created as part of a study project in image processing and computer vision using traditional feature detection methods.
 
-Maintained by: Your Name
-GitHub: [https://github.com/your-username](https://github.com/your-username)
+Maintained by: Lei Dumindin
+GitHub: [https://github.com/your-username](https://github.com/aro-wen)
 
 ---
 
