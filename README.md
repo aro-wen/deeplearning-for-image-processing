@@ -101,47 +101,6 @@ If you don’t have a `requirements.txt` yet, you can generate it:
 pip freeze > requirements.txt
 ```
 
----
-
-## 🚀 Running the Notebook
-
-1. Start Jupyter Notebook:
-
-```
-jupyter notebook
-```
-
-2. In the browser that opens, navigate to:
-
-```
-traditional-image-processing-feature-detectors/feature_detectors.ipynb
-```
-
-3. Run each cell to see various feature detectors in action.
-
----
-
-## 🧼 .gitignore Setup
-
-To prevent unnecessary files from being tracked, create a `.gitignore` file and include:
-
-```
-venv/
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-.vscode/
-```
-
-Then run:
-
-```
-git add .gitignore
-git commit -m "Add .gitignore to ignore venv and cache files"
-git push
-```
-
----
 
 ## 🧠 Credits
 
