@@ -1,109 +1,223 @@
-# 🧠 Deeplearning for Image Processing
+# 🖼️ Deep Learning for Image Processing
 
-This project explores traditional image processing feature detectors such as Haar, HOG, LBP, SIFT, SURF, FAST, and ORB using Python, OpenCV, scikit-image, and Jupyter Notebooks.
+<div align="center">
 
----
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge\&logo=python)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer_Vision-green?style=for-the-badge\&logo=opencv)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=for-the-badge\&logo=jupyter)
+![scikit-image](https://img.shields.io/badge/scikit--image-Image_Processing-yellow?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
-## 📌 Table of Contents
+**Exploring Classical Feature Detection and Image Processing Techniques using Python, OpenCV, and scikit-image**
 
-* 📦 Requirements
-* 🐍 Installing Python 3.10.11
-* 🖥️ Setting Up VS Code for Python and Jupyter
-* ⬇️ Cloning the Repository
-* 🌱 Creating and Activating a Virtual Environment
-* 📚 Installing Dependencies
-* 🚀 Running the Notebook
-* 🧼 .gitignore Setup
-* 🧠 Credits
+</div>
 
 ---
 
-## 📦 Requirements
+## 📖 Overview
 
-* Python 3.10.11
-* Git
-* Visual Studio Code
-* Pip (comes with Python)
-* Internet connection (for installing packages)
+This repository serves as a hands-on exploration of traditional computer vision and image processing algorithms that laid the foundation for modern deep learning systems.
 
----
+The project demonstrates and compares several widely used feature extraction and keypoint detection techniques through interactive Jupyter Notebooks.
 
-## 🐍 Installing Python 3.10.11
+### 🔍 Techniques Covered
 
-1. Download Python 3.10.11 from: [https://www.python.org/downloads/release/python-31011/](https://www.python.org/downloads/release/python-31011/)
-2. During installation:
-
-   * Check "Add Python to PATH"
-   * You can optionally choose "Customize Installation"
-3. Confirm installation:
-
-   ```
-   python --version
-   ```
+| Algorithm                             | Purpose                                 |
+| ------------------------------------- | --------------------------------------- |
+| Haar Features                         | Object detection and feature extraction |
+| HOG (Histogram of Oriented Gradients) | Shape and object recognition            |
+| LBP (Local Binary Patterns)           | Texture analysis                        |
+| SIFT                                  | Scale-invariant feature detection       |
+| SURF                                  | Speeded-up robust feature detection     |
+| FAST                                  | High-speed corner detection             |
+| ORB                                   | Efficient feature matching and tracking |
 
 ---
 
-## 🖥️ Setting Up VS Code for Python and Jupyter
+## 🏗️ Project Structure
 
-1. Install Visual Studio Code: [https://code.visualstudio.com/](https://code.visualstudio.com/)
-2. In VS Code, go to Extensions (`Ctrl+Shift+X`)
-3. Install:
-
-   * Python (by Microsoft)
-   * Jupyter (by Microsoft)
-
----
-
-## ⬇️ Cloning the Repository
-
-In your terminal:
-
+```text
+deeplearning-for-image-processing/
+│
+├── notebooks/              # Jupyter notebooks
+├── images/                 # Sample images and datasets
+├── requirements.txt        # Project dependencies
+├── .gitignore
+└── README.md
 ```
-git clone "https://github.com/aro-wen/deeplearning-for-image-processing.git"
+
+---
+
+## 🚀 Quick Start
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/aro-wen/deeplearning-for-image-processing.git
 cd deeplearning-for-image-processing
 ```
 
-Replace with your actual repo URL.
-
 ---
 
-## 🌱 Creating and Activating a Virtual Environment
+### 2️⃣ Create a Virtual Environment
 
-### On Windows:
+#### Windows
 
-```
+```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
-### On macOS/Linux:
+#### macOS / Linux
 
-```
+```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-You should now see `(venv)` in your terminal prompt.
-
 ---
 
-## 📚 Installing Dependencies
+### 3️⃣ Install Dependencies
 
-With the `venv` activated, run:
-
-```
+```bash
 pip install -r requirements.txt
 ```
 
+---
 
+### 4️⃣ Launch Jupyter Notebook
 
-## 🧠 Credits
+```bash
+jupyter notebook
+```
 
-Created as part of a study project in image processing and computer vision using traditional feature detection methods.
+or
 
-Maintained by: Lei Dumindin
-GitHub: [https://github.com/aro-wen](https://github.com/aro-wen)
+```bash
+jupyter lab
+```
+
+Open the desired notebook and run the cells sequentially.
 
 ---
 
-Let me know if you want a matching `requirements.txt` or want to add screenshots or examples to this!
+## ⚙️ Prerequisites
+
+Before running the project, ensure you have the following installed:
+
+* Python 3.10+
+* Git
+* Visual Studio Code (recommended)
+* Jupyter Notebook or JupyterLab
+* Internet connection (for package installation)
+
+---
+
+## 🛠️ Recommended VS Code Extensions
+
+To enhance your development experience, install:
+
+| Extension | Publisher |
+| --------- | --------- |
+| Python    | Microsoft |
+| Jupyter   | Microsoft |
+| Pylance   | Microsoft |
+
+Open the Extensions Marketplace using:
+
+```text
+Ctrl + Shift + X
+```
+
+and install the required extensions.
+
+---
+
+## 📦 Core Libraries
+
+This project leverages the following Python libraries:
+
+```text
+opencv-python
+numpy
+matplotlib
+scikit-image
+jupyter
+```
+
+Install all dependencies with:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🎯 Learning Objectives
+
+Through this project, you will:
+
+* Understand classical computer vision techniques
+* Explore feature extraction methods
+* Compare detector performance and characteristics
+* Visualize image transformations and keypoints
+* Build a strong foundation before studying deep learning-based vision models
+
+---
+
+## 📸 Sample Outputs
+
+Add screenshots of:
+
+* SIFT Keypoint Detection
+* ORB Feature Matching
+* HOG Visualization
+* LBP Texture Analysis
+* FAST Corner Detection
+
+Example:
+
+```markdown
+![SIFT Example](docs/images/sift-output.png)
+```
+
+---
+
+## 🧹 .gitignore
+
+Recommended entries:
+
+```gitignore
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
+```
+
+---
+
+## 📚 References
+
+* OpenCV Documentation
+* scikit-image Documentation
+* Computer Vision: Algorithms and Applications
+* Feature Detection and Description Research Papers
+
+---
+
+## 👨‍💻 Author
+
+**Leila Arowen A. Dumindin**
+
+GitHub: https://github.com/aro-wen
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project useful, consider giving it a star!
+
+Built with Python, OpenCV, and curiosity.
+
+</div>
